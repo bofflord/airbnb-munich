@@ -24,7 +24,10 @@ Evaluation of Munich Airbnb data
   "LICENSE": GNU General Public License v3.0
   
 # 4. How to Interact with your project
-  Since the main purpose of this analysis is educational, I would really appreciate any feedback on possible improvements in code, modeling and general problem-solving approach. Otherwise it would be may pleasure if my files could serve as orientation or base for other projects.
+  Since the main purpose of this analysis is educational, I would really appreciate any feedback on possible improvements in code, modeling and general problem-solving approach. Otherwise it would be may pleasure if my files could serve as orientation or base for other projects. The projects results are the following:
+* Appropriate price for a listing (chapter 3): even though a suitable model for the determination could not established in this analysis, the descriptive statistics provide a reference for the current price ranges. 
+* Influence of listing properties on price (chapter 4): Room type and neighbourhood appear to have a high effect on listing prices. However an in detail analysis of more features is required in order to derive any suitable model for prediction.
+* Oktoberfest effect on Airbnb prices (chapter 5): also here a suitable model could not be established, analysis of more data is required. Again descriptive statistics illustrates that there is a significant change in prices during the Oktoberfest for some features, but crucially not in all listings.
 
 # 5. Licensing, Authors, Acknowledgements
   As mentioned above the content is available under the GNU General Public License v3.0.
