@@ -4,19 +4,14 @@ Evaluation of Munich Airbnb data
 1. Installations
   import numpy as np # linear algebra
   import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-  import matplotlib.pyplot as plt
-  # magic word for producing visualizations in notebook
-  %matplotlib inline
-  # import pandas profiling
-  import pandas_profiling
-  # import libraries for linear regression
-  from sklearn.model_selection import train_test_split 
+  import matplotlib.pyplot as plt 
+  %matplotlib inline # magic word for producing visualizations in notebook
+  import pandas_profiling # import pandas profiling  
+  from sklearn.model_selection import train_test_split # import libraries for linear regression
   from sklearn.linear_model import LinearRegression
-  from sklearn import metrics
-  # import standard scaler
-  from sklearn.preprocessing import StandardScaler
-  # import PCA
-  from sklearn.decomposition import PCA
+  from sklearn import metrics  
+  from sklearn.preprocessing import StandardScaler # import standard scaler
+  from sklearn.decomposition import PCA # import PCA
 
 2. Project Motivation
   The main purpose of this data science project on Airbnb Data of Munich, Germany is educational. This blog post and analysis was done as a project within the Udacity Data Science Nanodegree. The CRISP-DM process model is applied in practice. As part of this analysis several data science methods (e.g. supervised learning, pca) are applied
